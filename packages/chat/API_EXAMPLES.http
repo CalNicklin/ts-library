@@ -1,6 +1,6 @@
 
 ### Get all users
-GET http://localhost:1234/api/users HTTP/1.1
+GET http://localhost:3000/api/users HTTP/1.1
 
 ### Get one user
 GET http://localhost:1234/api/users/1 HTTP/1.1
