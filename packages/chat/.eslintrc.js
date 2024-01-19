@@ -35,6 +35,12 @@ module.exports = {
   },
   overrides: [
     {
+      files: ['src/utils/**.{ts,tsx,mts,cts}/'],
+      rules: {
+        '@typescript-eslint/strict-boolean-expressions': 'error'
+      }
+    },
+    {
       /**
        * ESLINT CONFIG
        */
@@ -47,7 +53,7 @@ module.exports = {
     },
     /**
      * CLIENT SIDE CODE (ESM)
-     */
+     */ 
     {
       files: ['src/**/*.{mts,ts,mjs,js,jsx,tsx}'],
 
