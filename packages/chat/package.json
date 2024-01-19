@@ -51,7 +51,7 @@
     "postcss-purgecss": "^5.0.0",
     "prettier": "^3.0.3",
     "tailwindcss": "^3.3.3",
-    "tsd": "^0.29.0",
+    "tsd": "^0.30.4",
     "typescript": "5.3.0-beta"
   },
   "scripts": {

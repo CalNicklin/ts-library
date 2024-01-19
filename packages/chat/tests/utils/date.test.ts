@@ -1,5 +1,8 @@
 import { formatTimestamp } from 'chat/src/utils/date.cjs'
 import { format } from 'date-fns'
+import { expectType } from 'tsd'
+
+expectType<string>(formatTimestamp(new Date()))
 
 describe('Utils - formatTimestamp', () => {
   it('should format the date correctly', () => {
