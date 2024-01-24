@@ -13587,21 +13587,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-copy-linked-files@npm:^4.12.0":
-  version: 4.12.0
-  resolution: "gatsby-remark-copy-linked-files@npm:4.12.0"
+"gatsby-remark-copy-linked-files@npm:^6.13.1":
+  version: 6.13.1
+  resolution: "gatsby-remark-copy-linked-files@npm:6.13.1"
   dependencies:
-    "@babel/runtime": ^7.15.4
+    "@babel/runtime": ^7.20.13
     cheerio: ^1.0.0-rc.10
-    fs-extra: ^10.0.0
+    fs-extra: ^11.1.1
     is-relative-url: ^3.0.0
     lodash: ^4.17.21
     path-is-inside: ^1.0.2
-    probe-image-size: ^6.0.0
+    probe-image-size: ^7.2.3
     unist-util-visit: ^2.0.3
   peerDependencies:
-    gatsby: ^3.0.0-next.0
-  checksum: 05a1d4dc415b3e800e72773ad71293234705e088ea2480b889155a5314d49261578e03d39a36bb60fbd580db4da10dffe34a2a6df9fd487d11f03c2ec871aedc
+    gatsby: ^5.0.0-next
+  checksum: 4eee4bba8e388a812f9a7eae7721e1f68ee5e723423c7cddddad3048857e1a67c7cf4acfa31f5fa7cf08f875df236037e4796e61e5c0e563d224a24bcc5138a1
   languageName: node
   linkType: hard
 
@@ -22113,6 +22113,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"probe-image-size@npm:^7.2.3":
+  version: 7.2.3
+  resolution: "probe-image-size@npm:7.2.3"
+  dependencies:
+    lodash.merge: ^4.6.2
+    needle: ^2.5.2
+    stream-parser: ~0.3.1
+  checksum: 1a5eeb8f5cb979172144a5d7a017c70fcd664ccc8af9ad3a803903ee81864abea4036adae4fc6e66e9ae21bd3ce0febefaf1f32e65a77ff226b2eb61e9e4978c
+  languageName: node
+  linkType: hard
+
 "process-nextick-args@npm:~2.0.0":
   version: 2.0.1
   resolution: "process-nextick-args@npm:2.0.1"
@@ -25918,11 +25929,11 @@ __metadata:
 
 "typescript@patch:typescript@5.3.3#~builtin<compat/typescript>, typescript@patch:typescript@~5.3.0#~builtin<compat/typescript>":
   version: 5.3.3
-  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=29ae49"
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f61375590b3162599f0f0d5b8737877ac0a7bc52761dbb585d67e7b8753a3a4c42d9a554c4cc929f591ffcf3a2b0602f65ae3ce74714fd5652623a816862b610
+  checksum: 4e604a9e107ce0c23b16a2f8d79d0531d4d8fe9ebbb7a8c395c66998c39892f0e0a071ef0b0d4e66420a8ec2b8d6cfd9cdb29ba24f25b37cba072e9282376df9
   languageName: node
   linkType: hard
 
@@ -27018,7 +27029,7 @@ __metadata:
     gatsby-plugin-sharp: ^3.15.0
     gatsby-plugin-typography: ^3.15.0
     gatsby-remark-autolink-headers: ^4.12.0
-    gatsby-remark-copy-linked-files: ^4.12.0
+    gatsby-remark-copy-linked-files: ^6.13.1
     gatsby-remark-custom-blocks: ^3.15.0
     gatsby-remark-emojis: ^0.4.3
     gatsby-remark-images: ^5.12.0
