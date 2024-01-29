@@ -4260,7 +4260,7 @@ __metadata:
     "@babel/core": ^7.23.2
     "@babel/preset-typescript": ^7.23.2
     core-js: ^3.33.0
-    markdownlint-cli: ^0.37.0
+    markdownlint-cli: ^0.39.0
     replace-in-file: ^7.0.1
   languageName: unknown
   linkType: soft
@@ -9568,10 +9568,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:~11.0.0":
-  version: 11.0.0
-  resolution: "commander@npm:11.0.0"
-  checksum: 6621954e1e1d078b4991c1f5bbd9439ad37aa7768d6ab4842de1dbd4d222c8a27e1b8e62108b3a92988614af45031d5bb2a2aaa92951f4d0c934d1a1ac564bb4
+"commander@npm:~11.1.0":
+  version: 11.1.0
+  resolution: "commander@npm:11.1.0"
+  checksum: fd1a8557c6b5b622c89ecdfde703242ab7db3b628ea5d1755784c79b8e7cb0d74d65b4a262289b533359cd58e1bfc0bf50245dfbcd2954682a6f367c828b79ef
   languageName: node
   linkType: hard
 
@@ -14171,7 +14171,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.2.2, glob@npm:~10.3.4":
+"glob@npm:^10.2.2, glob@npm:~10.3.10":
   version: 10.3.10
   resolution: "glob@npm:10.3.10"
   dependencies:
@@ -15222,10 +15222,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^5.1.1, ignore@npm:^5.1.4, ignore@npm:^5.1.8, ignore@npm:^5.2.0, ignore@npm:^5.2.4, ignore@npm:~5.2.4":
+"ignore@npm:^5.1.1, ignore@npm:^5.1.4, ignore@npm:^5.1.8, ignore@npm:^5.2.0, ignore@npm:^5.2.4":
   version: 5.2.4
   resolution: "ignore@npm:5.2.4"
   checksum: 3d4c309c6006e2621659311783eaea7ebcd41fe4ca1d78c91c473157ad6666a57a2df790fe0d07a12300d9aac2888204d7be8d59f9aaf665b1c7fcdb432517ef
+  languageName: node
+  linkType: hard
+
+"ignore@npm:~5.3.0":
+  version: 5.3.0
+  resolution: "ignore@npm:5.3.0"
+  checksum: 2736da6621f14ced652785cb05d86301a66d70248597537176612bd0c8630893564bd5f6421f8806b09e8472e75c591ef01672ab8059c07c6eb2c09cefe04bf9
   languageName: node
   linkType: hard
 
@@ -17567,10 +17574,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-parser@npm:^3.0.0, jsonc-parser@npm:~3.2.0":
+"jsonc-parser@npm:^3.0.0":
   version: 3.2.0
   resolution: "jsonc-parser@npm:3.2.0"
   checksum: 946dd9a5f326b745aa326d48a7257e3f4a4b62c5e98ec8e49fa2bdd8d96cef7e6febf1399f5c7016114fd1f68a1c62c6138826d5d90bc650448e3cf0951c53c7
+  languageName: node
+  linkType: hard
+
+"jsonc-parser@npm:~3.2.1":
+  version: 3.2.1
+  resolution: "jsonc-parser@npm:3.2.1"
+  checksum: 656d9027b91de98d8ab91b3aa0d0a4cab7dc798a6830845ca664f3e76c82d46b973675bbe9b500fae1de37fd3e81aceacbaa2a57884bf2f8f29192150d2d1ef7
   languageName: node
   linkType: hard
 
@@ -17882,6 +17896,15 @@ __metadata:
   dependencies:
     uc.micro: ^1.0.1
   checksum: 3e0a29921269c14eb7ac6f5db2da68d4854ea9acca6e9014a323f75f2dd39b197ffab57c1fbd6a906ceb021aad3ee6d7ba7d0181236dd9630ffc452b392f7f71
+  languageName: node
+  linkType: hard
+
+"linkify-it@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "linkify-it@npm:5.0.0"
+  dependencies:
+    uc.micro: ^2.0.0
+  checksum: b0b86cadaf816b64c947a83994ceaad1c15f9fe7e079776ab88699fb71afd7b8fc3fd3d0ae5ebec8c92c1d347be9ba257b8aef338c0ebf81b0d27dcf429a765a
   languageName: node
   linkType: hard
 
@@ -18490,6 +18513,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"markdown-it@npm:14.0.0":
+  version: 14.0.0
+  resolution: "markdown-it@npm:14.0.0"
+  dependencies:
+    argparse: ^2.0.1
+    entities: ^4.4.0
+    linkify-it: ^5.0.0
+    mdurl: ^2.0.0
+    punycode.js: ^2.3.1
+    uc.micro: ^2.0.0
+  bin:
+    markdown-it: bin/markdown-it.mjs
+  checksum: f63bd8b39b2232ad686ec49f046bbf51c34253e38295f5d44a8e5dc6ec5401e9a9fbed0bb88cbc1635608e2bb21c5a3c2336a2a9f52548c24be5abd06001bc01
+  languageName: node
+  linkType: hard
+
 "markdown-table@npm:^1.1.0":
   version: 1.1.3
   resolution: "markdown-table@npm:1.1.3"
@@ -18506,22 +18545,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-cli@npm:^0.37.0":
-  version: 0.37.0
-  resolution: "markdownlint-cli@npm:0.37.0"
+"markdownlint-cli@npm:^0.39.0":
+  version: 0.39.0
+  resolution: "markdownlint-cli@npm:0.39.0"
   dependencies:
-    commander: ~11.0.0
+    commander: ~11.1.0
     get-stdin: ~9.0.0
-    glob: ~10.3.4
-    ignore: ~5.2.4
+    glob: ~10.3.10
+    ignore: ~5.3.0
     js-yaml: ^4.1.0
-    jsonc-parser: ~3.2.0
-    markdownlint: ~0.31.1
+    jsonc-parser: ~3.2.1
+    markdownlint: ~0.33.0
     minimatch: ~9.0.3
     run-con: ~1.3.2
   bin:
     markdownlint: markdownlint.js
-  checksum: 385398c2699a41e26491db098c79835fd5c816aed4cc82945e6195c2ba27cc34cd01d05fd8f01e75f595773215c7975cb4aa315811b7c6b47e15a8d3d5c63caf
+  checksum: 76ac18eb72c5fdda2e147acf90014c0894e56f759b4db00cfed1866e94cded70874d9d1a38e2b52abe5a92ec3f73cf8c99448acbd88d188ca14ced14c4e58fb9
   languageName: node
   linkType: hard
 
@@ -18532,13 +18571,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:^0.31.1, markdownlint@npm:~0.31.1":
+"markdownlint-micromark@npm:0.1.8":
+  version: 0.1.8
+  resolution: "markdownlint-micromark@npm:0.1.8"
+  checksum: 4691e1717b42542587b6dac97acc8340a30ea913d27b3f6699432ccb62ded5c976ceff923779408cd919f11dbedf7c74f900fbd58727b1e934680b0f231d33aa
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:^0.31.1":
   version: 0.31.1
   resolution: "markdownlint@npm:0.31.1"
   dependencies:
     markdown-it: 13.0.1
     markdownlint-micromark: 0.1.7
   checksum: a633ecb5a6011c4101a65848509b53511931480d8c70d7afc95675d5c3bccfdfadfc7f43855b1cd86764fa55d11187cb96e35b50cbbd987d10fa47648596f5bd
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:~0.33.0":
+  version: 0.33.0
+  resolution: "markdownlint@npm:0.33.0"
+  dependencies:
+    markdown-it: 14.0.0
+    markdownlint-micromark: 0.1.8
+  checksum: 7c14a34217b405b1f7e6f356ab0ba81d29a2cf7178e7edc513719bfc3ca6c6ff2a25c49c436c7fd47e832221a48c463c8ee908c0c840bcd7cdd1603d3ce5e00f
   languageName: node
   linkType: hard
 
@@ -18772,6 +18828,13 @@ __metadata:
   version: 1.0.1
   resolution: "mdurl@npm:1.0.1"
   checksum: 71731ecba943926bfbf9f9b51e28b5945f9411c4eda80894221b47cc105afa43ba2da820732b436f0798fd3edbbffcd1fc1415843c41a87fea08a41cc1e3d02b
+  languageName: node
+  linkType: hard
+
+"mdurl@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "mdurl@npm:2.0.0"
+  checksum: 880bc289ef668df0bb34c5b2b5aaa7b6ea755052108cdaf4a5e5968ad01cf27e74927334acc9ebcc50a8628b65272ae6b1fd51fae1330c130e261c0466e1a3b2
   languageName: node
   linkType: hard
 
@@ -22258,6 +22321,13 @@ __metadata:
     end-of-stream: ^1.1.0
     once: ^1.3.1
   checksum: e42e9229fba14732593a718b04cb5e1cfef8254544870997e0ecd9732b189a48e1256e4e5478148ecb47c8511dca2b09eae56b4d0aad8009e6fac8072923cfc9
+  languageName: node
+  linkType: hard
+
+"punycode.js@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "punycode.js@npm:2.3.1"
+  checksum: 13466d7ed5e8dacdab8c4cc03837e7dd14218a59a40eb14a837f1f53ca396e18ef2c4ee6d7766b8ed2fc391d6a3ac489eebf2de83b3596f5a54e86df4a251b72
   languageName: node
   linkType: hard
 
@@ -25918,11 +25988,11 @@ __metadata:
 
 "typescript@patch:typescript@5.3.3#~builtin<compat/typescript>, typescript@patch:typescript@~5.3.0#~builtin<compat/typescript>":
   version: 5.3.3
-  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=29ae49"
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f61375590b3162599f0f0d5b8737877ac0a7bc52761dbb585d67e7b8753a3a4c42d9a554c4cc929f591ffcf3a2b0602f65ae3ce74714fd5652623a816862b610
+  checksum: 4e604a9e107ce0c23b16a2f8d79d0531d4d8fe9ebbb7a8c395c66998c39892f0e0a071ef0b0d4e66420a8ec2b8d6cfd9cdb29ba24f25b37cba072e9282376df9
   languageName: node
   linkType: hard
 
@@ -25989,6 +26059,13 @@ __metadata:
   version: 1.0.6
   resolution: "uc.micro@npm:1.0.6"
   checksum: 6898bb556319a38e9cf175e3628689347bd26fec15fc6b29fa38e0045af63075ff3fea4cf1fdba9db46c9f0cbf07f2348cd8844889dd31ebd288c29fe0d27e7a
+  languageName: node
+  linkType: hard
+
+"uc.micro@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "uc.micro@npm:2.0.0"
+  checksum: 86e142c239ed01360b9d705a9e194cfb55cfee2dbd22ffa52465a6270e3308dfc23347550d46836e60ea97dcf6cf57eef9531e5ac22e418fb994c0f761a74fa0
   languageName: node
   linkType: hard
 
@@ -27033,7 +27110,7 @@ __metadata:
     js-yaml: ^4.1.0
     lodash: ^4.17.21
     markdownlint: ^0.31.1
-    markdownlint-cli: ^0.37.0
+    markdownlint-cli: ^0.39.0
     pkg-up: ^3.1.0
     prettier: ^3.0.3
     prismjs: ^1.29.0
