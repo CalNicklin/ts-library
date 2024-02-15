@@ -9130,7 +9130,7 @@ __metadata:
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^5.0.1
     eslint-plugin-promise: ^6.1.1
-    eslint-plugin-sonarjs: ^0.21.0
+    eslint-plugin-sonarjs: ^0.24.0
     execa: ^8.0.1
     express: ^4.18.2
     express-rate-limit: ^7.1.1
@@ -11865,12 +11865,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sonarjs@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "eslint-plugin-sonarjs@npm:0.21.0"
+"eslint-plugin-sonarjs@npm:^0.24.0":
+  version: 0.24.0
+  resolution: "eslint-plugin-sonarjs@npm:0.24.0"
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: c4d9de638a9ea6cc604355b02bc76819f811a3e20eb19bfc5741e3ad959721b573c9808b47e6aea4a6ce2d32101f42f2237f4d9c53230615c34afbf4ed6f69ea
+  checksum: 14e81d2b9efa9d309a0cf1758955708a3f73b1cdf129140607db983bb36027f1442a99fc0b254303307cf743bd241f88b07f95a68013502fbceca9565960ca02
   languageName: node
   linkType: hard
 
@@ -25918,11 +25918,11 @@ __metadata:
 
 "typescript@patch:typescript@5.3.3#~builtin<compat/typescript>, typescript@patch:typescript@~5.3.0#~builtin<compat/typescript>":
   version: 5.3.3
-  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=29ae49"
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f61375590b3162599f0f0d5b8737877ac0a7bc52761dbb585d67e7b8753a3a4c42d9a554c4cc929f591ffcf3a2b0602f65ae3ce74714fd5652623a816862b610
+  checksum: 4e604a9e107ce0c23b16a2f8d79d0531d4d8fe9ebbb7a8c395c66998c39892f0e0a071ef0b0d4e66420a8ec2b8d6cfd9cdb29ba24f25b37cba072e9282376df9
   languageName: node
   linkType: hard
 
